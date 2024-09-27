@@ -1,0 +1,40 @@
+{
+  "name": "my-chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"npm run next\"",
+    "next": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
+    "@mui/styled-engine-sc": "^6.1.1",
+    "@mui/x-charts": "^7.18.0",
+    "@next/env": "^14.2.13",
+    "@types/socket.io": "^3.0.2",
+    "apexcharts": "^3.53.0",
+    "chart.js": "^4.4.4",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "concurrently": "^9.0.1",
+    "typescript": "^5"
+  }
+}
